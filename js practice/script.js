@@ -378,9 +378,9 @@
 
 // ----------------function by input value example
 
-function myfunction(msg){
-    // parameter -> input
-    console.log(msg);
-}
+// function myfunction(msg){
+//     // parameter -> input
+//     console.log(msg);
+// }
 
-myfunction("We are learning JS");// arguments
+// myfunction("We are learning JS");// arguments

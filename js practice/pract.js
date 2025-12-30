@@ -114,3 +114,11 @@
 // companies.push("Amazon");// add amazon to the end of an array
 
 // console.log(companies);
+
+//-------------------practice for functions in js (to find the sum of 2 numbers)
+
+function sum(x, y) {
+    console.log(x + y);
+}
+
+sum(5, 9);
