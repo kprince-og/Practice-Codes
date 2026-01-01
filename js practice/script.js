@@ -384,3 +384,19 @@
 // }
 
 // myfunction("We are learning JS");// arguments
+
+//----------------- For each loop in an array (also called method in jS)
+
+// let arr = [1, 2, 3, 4];
+
+// arr.forEach(function printVal(val){
+//     console.log(val);
+// })
+
+// //--------with arrow functions (generally we use this method in JS)
+
+// let arr1 = ["Pathankot", "Gurdaspur", "Amritsar", "Tarn-Taran"];
+
+// arr1.forEach((val, idx) => {
+//     console.log(val.toUpperCase(), idx);
+// })
