@@ -193,3 +193,13 @@
 // }
 
 // nums.forEach(calculateSquare);
+
+// example for reduce method (to find out the largest number)
+
+// let num = [4, 7, 2, 9, 1, 5];
+
+// const result = num.reduce((preval, currval) => {
+//     return preval > currval ? preval : currval;
+// })
+
+// console.log(result);

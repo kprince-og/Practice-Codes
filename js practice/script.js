@@ -385,7 +385,7 @@
 
 // myfunction("We are learning JS");// arguments
 
-//----------------- For each loop in an array (also called method in jS)
+//----------------- For each loop in an array (also called method in jS) used to print something or calcu some numbers
 
 // let arr = [1, 2, 3, 4];
 
@@ -400,3 +400,33 @@
 // arr1.forEach((val, idx) => {
 //     console.log(val.toUpperCase(), idx);
 // })
+
+// array method (Map method -> works similiar as for each loop but output result in new Array)
+
+// let nums = [32, 54, 65, 19];
+
+// let newArr = nums.map((val) =>{
+//     return val * 2;
+// })
+
+// console.log(newArr);
+
+// filter method in JS (Filters value and stores the true value in New Array)
+
+// let arr = [1, 2, 3, 4, 5, 6];
+
+// let newArr = arr.filter((val) => {
+//     return val % 2 === 0;
+// })
+
+// console.log(newArr);
+
+// Reduce method (reduces the array and results a single value)
+
+// let arr = [1, 2, 3, 4];
+
+// const output = arr.reduce((restval, currval) => {
+//     return restval + currval;
+// })
+
+// console.log(output);
