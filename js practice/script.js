@@ -436,3 +436,13 @@
 // let exp = document.getElementsByClassName("contant");
 // console.dir(exp);
 // console.log(exp);
+
+// -----------------query selector in DOM
+
+// let ele = document.querySelector("p"); // selects only one element at a time
+// console.dir(ele);
+// console.log(ele);
+
+// let allEle = document.querySelectorAll("p"); // selects all the element in document
+// console.dir(allEle);
+// console.log(allEle);
