@@ -238,7 +238,19 @@
 
 //-------------------Practise set for Dom concepts and Properties of JS (Q.1)
 
-let h2 = document.querySelector("h2");
-console.dir(h2.innerText);
+// let h2 = document.querySelector("h2");
+// console.dir(h2.innerText);
 
-h2.innerText = h2.innerText + " From Web Dev Practice Sets";
+// h2.innerText = h2.innerText + " From Web Dev Practice Sets";
+
+// ---------------Q.2
+
+// let divs = document.querySelectorAll(".box");
+
+
+// let idx = 1;
+// for(div of divs) {
+//     // console.log(div.innerText);
+//     div.innerText = `New Unique value ${idx}`;
+//     idx++;
+// }
